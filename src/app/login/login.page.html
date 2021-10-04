@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+    <ion-button routerLink="/home" routerDirection="back" class="button-back">
+      <img src="../../assets/back-dark.svg"/>
+    </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="ion-padding container ion-text-center">
+    <h1>Acessar Aplicativo</h1>
+
+    <div class="form-container">
+
+      <ion-item>
+        <ion-label position="floating">Identificador</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Chave de Acesso</ion-label>
+        <ion-input type="password"></ion-input>
+        <ion-icon name="eye" slot="end"></ion-icon>
+      </ion-item>
+
+      <ion-button expand="block" class="main-button" (click)="autenticar()">ACESSAR</ion-button>
+
+      <div class="sign-up">
+         <ion-button color="dark" fill="clear">Relatar o Problema</ion-button>
+      </div>
+
+    </div>
+
+  </div>
+
+</ion-content>

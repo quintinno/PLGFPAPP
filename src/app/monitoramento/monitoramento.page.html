@@ -1,0 +1,108 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="../../assets/menu_bar.svg" />
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="notification">
+        <ion-icon name="notifications-outline" color="dark"></ion-icon>
+        <span>&nbsp;</span>
+      </ion-button>
+      <ion-button class="filter">
+        <ion-icon name="funnel-outline" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="search ion-padding">
+    <ion-item lines="none">
+      <ion-input placeholder="Pesquisar"></ion-input>
+      <ion-icon name="search" slot="start"></ion-icon>
+    </ion-item>
+  </div>
+
+  <div class="title ion-padding">
+    <h5>Meus Cartões</h5>
+    <h6>Ver Todas</h6>
+  </div>
+
+  <div class="cartao-slider ion-padding-start">
+
+    <ion-slides class="ion-margin-top">
+
+      <ion-slide>
+        <ion-card class="card-container">
+            <div class="instituicao-financeira">Banco do Brasil</div>
+            <div><ion-icon name="hardware-chip-outline" class="chip"></ion-icon></div>
+            <div class="dados-cartao">
+              <div class="numero-cartao">5687 8684 8574 8564</div>
+              <div class="expire-data">
+                <div class="nome-impresso-cartao">JOSE QUINTINN</div>
+                <div class="card-type nome-bandeira-cartao">Visa</div>
+              </div>
+            </div>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card class="card-container">
+            <div class="instituicao-financeira">Banco Santander</div>
+            <div><ion-icon name="hardware-chip-outline" class="chip"></ion-icon></div>
+            <div class="dados-cartao">
+              <div class="numero-cartao">5687 8684 8574 8564</div>
+              <div class="expire-data">
+                <div class="nome-impresso-cartao">JOSE QUINTINN</div>
+                <div class="card-type nome-bandeira-cartao">Mastercard</div>
+              </div>
+            </div>
+        </ion-card>
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+
+  <div class="title ion-padding">
+    <h5>Últimas Transferências</h5>
+    <h6>Ver Todas</h6>
+  </div>
+
+  <div class="tranferencias-slider ion-padding-start">
+    <ion-slides class="ion-margin-top">
+      <ion-slide>
+        <ion-card>
+          <h5>Banco Nubank</h5>
+          <div><ion-icon name="arrow-up-outline"></ion-icon></div>
+          <h6>Léia Rodrigues Silva</h6>
+          <p>R$ 500,00</p>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <h5>Banco Nubank</h5>
+          <div><ion-icon name="arrow-down-outline"></ion-icon></div>
+          <h6>Léia Rodrigues Silva</h6>
+          <p>R$ 500,00</p>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <h5>Banco Nubank</h5>
+          <div><ion-icon name="arrow-forward-outline"></ion-icon></div>
+          <h6>Léia Rodrigues Silva</h6>
+          <p>R$ 500,00</p>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div class="title ion-padding">
+    <h5>Despesas Fixas Mensais</h5>
+    <h6>Ver Todas</h6>
+  </div>
+
+</ion-content>
